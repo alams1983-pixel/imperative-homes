@@ -167,6 +167,16 @@
             font-weight: 500;
             position: relative;
         }
+
+                .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text-light);
+        }
+        
+        .logo span {
+            color: var(--accent-yellow);
+        }
         
         .nav-links a:after {
             content: '';
