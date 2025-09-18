@@ -47,15 +47,75 @@
         window.addEventListener('scroll', checkFade);
         window.addEventListener('load', checkFade);
         
+        // Load all properties from JSON and create dynamic listing cards
+        async function loadAllProperties() {
+            try {
+                const response = await fetch('assets/property.json');
+                const properties = await response.json();
+
+                if (properties.length > 0) {
+                    const listingsGrid = document.querySelector('.listings-grid');
+
+                    // Clear existing dynamic content
+                    const existingDynamicCards = listingsGrid.querySelectorAll('.dynamic-listing');
+                    existingDynamicCards.forEach(card => card.remove());
+
+                    // Create dynamic listing cards for each property
+                    properties.forEach((property, index) => {
+                        const listingCard = document.createElement('div');
+                        listingCard.className = 'listing-card fade-in dynamic-listing';
+
+                        // Limit description to 100 characters
+                        const shortDescription = property.description.length > 100
+                            ? property.description.substring(0, 100) + '...'
+                            : property.description;
+
+                        listingCard.innerHTML = `
+                            <div class="listing-img">
+                                <img src="${property.gallery && property.gallery.length > 0 ? property.gallery[0].src : ''}"
+                                     alt="${property.gallery && property.gallery.length > 0 ? property.gallery[0].alt : 'Property Image'}"
+                                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                            </div>
+                            <div class="listing-content">
+                                <h3>${property.title}</h3>
+                                <p class="listing-price">${property.price}</p>
+                                <p>${shortDescription}</p>
+                                <a href="listings/property.html?id=${property.id}" class="btn btn-primary">View Details</a>
+                            </div>
+                        `;
+
+                        // Append to the listings grid
+                        listingsGrid.appendChild(listingCard);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading properties:', error);
+            }
+        }
+
+        // Load all properties when page loads
+        if (document.querySelector('.listings-grid')) {
+            loadAllProperties();
+        }
+
         // Form submission
-        document.getElementById('leadForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // In a real implementation, you would send this data to a server
-            // For demonstration, we'll show an alert
-            alert('Thank you for contacting Imperative Home Creation. Our expert will reach out to you shortly to assist with your property needs.');
-            this.reset();
-        });
+        const leadForm = document.getElementById('leadForm');
+        if (leadForm) {
+            leadForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for contacting Imperative Home Creation. Our expert will reach out to you shortly to assist with your property needs.');
+                this.reset();
+            });
+        }
+
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your inquiry. We will contact you shortly to schedule your property viewing.');
+                this.reset();
+            });
+        }
 
         // Add this JavaScript at the end of your file, before the closing </script> tag
 
@@ -148,4 +208,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.key === 'ArrowRight') nextImage();
     if (e.key === 'ArrowLeft') prevImage();
   });
+});
+// Accordion functionality
+const accordionItems = document.querySelectorAll('.accordion-item');
+accordionItems.forEach(item => {
+    const header = item.querySelector('.accordion-header');
+    header.addEventListener('click', () => {
+        // Close all other items
+        accordionItems.forEach(otherItem => {
+            if (otherItem !== item) {
+                otherItem.classList.remove('active');
+            }
+        });
+        // Toggle current item
+        item.classList.toggle('active');
+    });
 });

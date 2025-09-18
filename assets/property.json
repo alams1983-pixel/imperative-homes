@@ -1,0 +1,344 @@
+[
+  {
+    "id": "property1",
+    "title": "Modern 3-Bedroom Apartment in Raj Nagar Extension",
+    "price": "₹72,00,000",
+    "meta": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": "1,500 sq ft",
+      "parking": 2
+    },
+    "overview": {
+      "propertyType": "Apartment",
+      "yearBuilt": 2022,
+      "floor": "5th (Total 12 Floors)",
+      "status": "Ready to Move In"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Living room",
+        "title": "Spacious Living Room",
+        "desc": "Modern design with ample natural light"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Kitchen",
+        "title": "Modern Kitchen",
+        "desc": "Fully equipped with premium appliances"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Master bedroom",
+        "title": "Master Bedroom",
+        "desc": "Comfortable and spacious with built-in wardrobe"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560448076-3f6f44b6b4a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Bathroom",
+        "title": "Elegant Bathroom",
+        "desc": "Modern fixtures with excellent water pressure"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Balcony",
+        "title": "Private Balcony",
+        "desc": "Perfect for morning coffee with city views"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Building exterior",
+        "title": "Building Exterior",
+        "desc": "Modern architecture with secure entrance"
+      }
+    ],
+    "description": "This stunning 3-bedroom apartment is located in the heart of Raj Nagar Extension, offering modern luxury and convenience. The property features high-quality finishes, spacious rooms, and an open-plan design that maximizes natural light. The apartment includes a modern kitchen with premium appliances, three well-appointed bedrooms with built-in wardrobes, and two elegant bathrooms. The living area opens to a balcony with beautiful views of the surrounding area.",
+    "features": [
+      "Modular kitchen with breakfast counter",
+      "Vitrified flooring in living area",
+      "Air conditioning in all bedrooms",
+      "24/7 security with CCTV",
+      "Power backup",
+      "Swimming pool and clubhouse"
+    ],
+    "details": {
+      "specifications": {
+        "carpetArea": "1,200 sq ft",
+        "superArea": "1,500 sq ft",
+        "flooring": "Vitrified Tiles",
+        "facing": "East",
+        "balconies": 2
+      },
+      "additionalInfo": {
+        "maintenance": "₹3,000/month",
+        "waterSupply": "24/7",
+        "powerBackup": "Partial",
+        "ageOfProperty": "New",
+        "ownership": "Freehold"
+      }
+    },
+    "location": {
+      "amenities": [
+        "Schools within 2 km",
+        "Hospitals within 3 km",
+        "Shopping malls within 1 km",
+        "Metro station 800 m",
+        "Restaurants & cafes nearby",
+        "Parks within walking distance"
+      ]
+    },
+    "agent": {
+      "name": "Syed Anwar Zaidi",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "contact": {
+        "phone": "+91-9811997485",
+        "whatsapp": "https://wa.me/918750041004"
+      }
+    },
+    "faq": [
+      {
+        "question": "Can I schedule a virtual tour?",
+        "answer": "Yes, we offer virtual tours for this property. Please contact us to schedule a virtual viewing at your convenience."
+      },
+      {
+        "question": "What's the process to make an offer?",
+        "answer": "To make an offer, please contact us directly. We'll guide you through the process, which typically involves submitting a letter of intent and then proceeding to documentation once the offer is accepted."
+      },
+      {
+        "question": "Is financing available for this property?",
+        "answer": "Yes, we have partnerships with several banks and financial institutions that offer home loans for this property. We can help you connect with them for pre-approval."
+      },
+      {
+        "question": "Are there any additional charges?",
+        "answer": "The price mentioned includes all applicable taxes. There may be nominal registration charges and maintenance deposits payable at the time of possession."
+      }
+    ],
+    "contact": {
+      "address": "G-2008 Tower 17, River Heights Society, Rajnagar Extension, Ghaziabad",
+      "phones": ["+91-9541545485", "+91-8548484804"],
+      "email": "ihc.ncr@gmail.com"
+    }
+  },
+  {
+    "id": "property2",
+    "title": "Cozy 2-BHK Apartment in Shastri Nagar",
+    "price": "₹45,50,000",
+    "meta": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": "1,100 sq ft",
+      "parking": 1
+    },
+    "overview": {
+      "propertyType": "Apartment",
+      "yearBuilt": 2019,
+      "floor": "3rd (Total 8 Floors)",
+      "status": "Ready to Move In"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Compact living room",
+        "title": "Compact Living Room",
+        "desc": "Cozy and efficiently designed living space"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Compact Kitchen",
+        "title": "Functional Kitchen",
+        "desc": "Smartly designed with efficient storage"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Bedroom",
+        "title": "Bedroom",
+        "desc": "Comfortable bedroom with ample closet space"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Bathroom",
+        "title": "Compact Bathroom",
+        "desc": "Well-maintained with modern fittings"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1571508601518-17c2b1c35b4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Small Balcony",
+        "title": "Compact Balcony",
+        "desc": "A perfect spot for your plants and fresh air"
+      }
+    ],
+    "description": "This well-maintained 2-BHK apartment in Shastri Nagar is perfect for small families or professionals. It boasts a efficient layout that makes the most of the available space. The apartment is in a peaceful locality with all basic amenities within reach. It features two bedrooms with ample sunlight, two bathrooms, a functional kitchen, and a cozy living room that leads to a small balcony.",
+    "features": [
+      "Modular kitchen",
+      "Ceramic flooring",
+      "24/7 security",
+      "Power backup for common areas",
+      "Children's play area",
+      "Nearby market and parks"
+    ],
+    "details": {
+      "specifications": {
+        "carpetArea": "900 sq ft",
+        "superArea": "1,100 sq ft",
+        "flooring": "Ceramic Tiles",
+        "facing": "North",
+        "balconies": 1
+      },
+      "additionalInfo": {
+        "maintenance": "₹2,000/month",
+        "waterSupply": "24/7 (Corporation + Borewell)",
+        "powerBackup": "Common areas only",
+        "ageOfProperty": "4 Years",
+        "ownership": "Freehold"
+      }
+    },
+    "location": {
+      "amenities": [
+        "Local market within 500 m",
+        "Bus stand within 1 km",
+        "School within 1.5 km",
+        "Hospital within 3 km",
+        "Park within walking distance"
+      ]
+    },
+    "agent": {
+      "name": "Syed Anwar Zaidi",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "contact": {
+        "phone": "+91-9811997485",
+        "whatsapp": "https://wa.me/918750041004"
+      }
+    },
+    "faq": [
+      {
+        "question": "Is this property good for a rental investment?",
+        "answer": "Yes, Shastri Nagar has a high rental demand due to its connectivity and amenities, making it a good investment option."
+      },
+      {
+        "question": "Are modifications to the layout allowed?",
+        "answer": "Minor modifications may be allowed with prior society permission. Structural changes are not permitted."
+      }
+    ],
+    "contact": {
+      "address": "G-2008 Tower 17, River Heights Society, Rajnagar Extension, Ghaziabad",
+      "phones": ["+91-9541545485", "+91-8548484804"],
+      "email": "ihc.ncr@gmail.com"
+    }
+  },
+  {
+    "id": "property3",
+    "title": "Luxurious 4-BHK Penthouse in Indirapuram",
+    "price": "₹1,45,00,000",
+    "meta": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": "2,800 sq ft",
+      "parking": 3
+    },
+    "overview": {
+      "propertyType": "Penthouse",
+      "yearBuilt": 2023,
+      "floor": "Top Floor (Duplex)",
+      "status": "Ready to Move In"
+    },
+    "gallery": [
+      {
+        "src": "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Luxury living room",
+        "title": "Expansive Living Area",
+        "desc": "Grand living room with high ceilings and panoramic windows"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566753053-cde41675c2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Gourmet Kitchen",
+        "title": "Chef's Kitchen",
+        "desc": "Spacious kitchen with island, premium finishes, and top-tier appliances"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1605044572488-91b6ab4d971e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Luxury Master Bedroom",
+        "title": "Master Suite",
+        "desc": "Spacious master bedroom with a walk-in closet and sitting area"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Luxury Bathroom",
+        "title": "Spa-like Bathroom",
+        "desc": "Master bathroom with a freestanding tub and separate shower"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Large Terrace",
+        "title": "Private Terrace",
+        "desc": "Massive private terrace perfect for entertaining and city views"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1432303492676-743ae63a2d0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        "alt": "Penthouse exterior",
+        "title": "Exclusive Penthouse",
+        "desc": "Private elevator access and exclusive entrance"
+      }
+    ],
+    "description": "Experience unparalleled luxury in this exquisite 4-BHK duplex penthouse in the prime location of Indirapuram. This property redefines elite living with its expansive spaces, high-end finishes, and breathtaking views from the private terrace. The home features a grand living area, a state-of-the-art chef's kitchen, four en-suite bedrooms, a home office space, and a sprawling terrace ideal for entertainment. Premium amenities include a private elevator access and 24/7 concierge service.",
+    "features": [
+      "Private Elevator Access",
+      "Premium Modular Kitchen with Island",
+      "Wooden Flooring in Bedrooms",
+      "Central Air Conditioning",
+      "24/7 Concierge & Security",
+      "Infinity Pool & Private Gym Access",
+      "Home Automation System"
+    ],
+    "details": {
+      "specifications": {
+        "carpetArea": "2,400 sq ft",
+        "superArea": "2,800 sq ft",
+        "flooring": "Marble & Wood",
+        "facing": "South-West",
+        "balconies": 2,
+        "terrace": "400 sq ft"
+      },
+      "additionalInfo": {
+        "maintenance": "₹8,000/month",
+        "waterSupply": "24/7 (Included)",
+        "powerBackup": "Full",
+        "ageOfProperty": "New",
+        "ownership": "Freehold"
+      }
+    },
+    "location": {
+      "amenities": [
+        "High-end shopping malls within 2 km",
+        "Multi-specialty hospitals within 2 km",
+        "International schools within 3 km",
+        "Direct access to NH-24",
+        "Fine-dining restaurants nearby",
+        "Premium clubs within 5 km"
+      ]
+    },
+    "agent": {
+      "name": "Syed Anwar Zaidi",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "contact": {
+        "phone": "+91-9811997485",
+        "whatsapp": "https://wa.me/918750041004"
+      }
+    },
+    "faq": [
+      {
+        "question": "Is the terrace private?",
+        "answer": "Yes, the entire 400 sq ft terrace is exclusively for the use of this penthouse owner."
+      },
+      {
+        "question": "What is included in the home automation system?",
+        "answer": "The system includes control for lighting, air conditioning, motorized blinds, and audio-visual equipment in the living room."
+      }
+    ],
+    "contact": {
+      "address": "G-2008 Tower 17, River Heights Society, Rajnagar Extension, Ghaziabad",
+      "phones": ["+91-9541545485", "+91-8548484804"],
+      "email": "ihc.ncr@gmail.com"
+    }
+  }
+]
