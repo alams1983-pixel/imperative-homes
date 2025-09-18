@@ -310,7 +310,7 @@
         }
         
         .listing-card:hover {
-            transform: translateY(-10px);
+            transform: translateY(-10px) scale(1.02);
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         
@@ -322,7 +322,15 @@
             justify-content: center;
             color: var(--text-gray);
         }
-        
+
+        .listing-img img {
+            transition: transform 0.3s ease;
+        }
+
+        .listing-card:hover .listing-img img {
+            transform: scale(1.05);
+        }
+
         .listing-content {
             padding: 20px;
         }
