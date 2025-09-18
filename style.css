@@ -1336,6 +1336,150 @@
     .scroll-indicator i {
         font-size: 1.2rem;
     }
+
+    /* Font size reductions for mobile (25% smaller) */
+    h1 {
+        font-size: 2.625rem;
+    }
+
+    h2 {
+        font-size: 1.875rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    .stat-item {
+        font-size: 0.675rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    /* Additional font size reductions for 25% smaller on mobile */
+    .btn {
+        font-size: 0.675rem;
+    }
+
+    .logo {
+        font-size: 1.35rem;
+    }
+
+    .mobile-toggle {
+        font-size: 1.125rem;
+    }
+
+    .service-icon {
+        font-size: 1.875rem;
+    }
+
+    .service-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .feature i {
+        font-size: 1.875rem;
+    }
+
+    .feature h3 {
+        font-size: 1.125rem;
+    }
+
+    .listing-content h3 {
+        font-size: 0.975rem;
+    }
+
+    .listing-price {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-text:before,
+    .testimonial-text:after {
+        font-size: 2.25rem;
+    }
+
+    .footer-column h3 {
+        font-size: 0.975rem;
+    }
+
+    .contact-info i {
+        font-size: 0.9rem;
+    }
+
+    .copyright {
+        font-size: 0.675rem;
+    }
+
+    .gallery-item-title {
+        font-size: 0.825rem;
+    }
+
+    .gallery-item-desc {
+        font-size: 0.675rem;
+    }
+
+    .lightbox-title {
+        font-size: 1.125rem;
+    }
+
+    .lightbox-desc {
+        font-size: 0.75rem;
+    }
+
+    .lightbox-close {
+        font-size: 1.125rem;
+    }
+
+    .lightbox-nav button {
+        font-size: 1.125rem;
+    }
+
+    .close-menu {
+        font-size: 1.125rem;
+    }
+
+    .property-price {
+        font-size: 1.875rem;
+    }
+
+    .overview-icon {
+        font-size: 1.875rem;
+    }
+
+    .overview-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .feature-item i {
+        font-size: 0.9rem;
+    }
+
+    .stat-item i {
+        font-size: 0.75rem;
+    }
+
+    .scroll-indicator i {
+        font-size: 1.125rem;
+    }
+
+    /* Override inline styles for mobile */
+    .map-container i {
+        font-size: 2.25rem !important;
+    }
+
+    .contact-form p[style*="font-size"] {
+        font-size: 0.675rem !important;
+    }
 }
 
 @media (max-width: 576px) {
